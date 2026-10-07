@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+body{
+  font-family:Roboto,sans-serif;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  padding-left:30px;
+  padding-right:30px;
+}
+.header img{
+  width:100px;
+}
+.header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+}
+.header a{
+  text-decoration: none;
+  color:#F9FAF8;
+}
+.hero{
+  display: flex;
+  background-color:#1F2937;
+  align-items:center;
+  justify-content: space-between;
+  padding:30px;
+  gap: 20px;
+}
+.hero-content h1{
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+  margin:0;
+}
+.hero-content p{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero-content button {
+  background-color: #3882F6; /* Changes background color to blue */
+  color: white;              /* Changes text color to white */
+  padding: 10px 20px;        /* Adds space inside the button */
+  border: none;              /* Removes the default ugly border */
+  border-radius: 5px;        /* Rounds the corners */
+  cursor: pointer;           /* Changes mouse cursor to a pointer hand */
+  font-weight: 700;
+}
+.hero-image img{
+  width:500px;
+  height:auto;
+}
+.hero-content{
+  max-width: 500px;
+}
+.title{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+main{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-evenly;
+  gap:100px;
+}
+.img-container{
+  display: flex;
+  gap: 100px;
+  padding-bottom: 50px;
+}
+.img-container div{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  
+}
+.img-container div img{
+  width: 200px;
+  height: auto;
+}
+.title-image{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.quote{
+  display: flex;
+  flex-direction: column;
+  background-color:#E5E7EB;
+  justify-content: center;
+  padding: 100px;
+}
+.quote p{
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: 300;
+}
+.quote h6{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+/* Modern, clean way 
+.CTA :is(p, h4, button) {
+  color: blue;
+  margin-bottom: 10px;
+}*/
+.CTA{
+  display: flex;
+  background-color:#3882F6;
+  align-items:center;
+  padding: 50px 100px 50px 100px;
+  justify-content: space-evenly;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.CTA .CTA-text{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  max-width: 600px;
+  justify-content:center;
+}
+.CTA-text h4{
+  margin: 0;
+}
+.CTA-Button button{
+  background-color:#3882F6;
+  color: white;
+  padding: 10px 20px;
+  border:1px solid white;
+  border-radius: 5px;
+  cursor:pointer;
+  font-weight: 700;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: #1F2937;
+  color:#F9FAF8;
+  margin-top: auto;
+}
